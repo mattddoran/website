@@ -93,3 +93,13 @@
 	margin-left: 3px;
 	margin-right: 3px;
 }
+
+.pdf {
+	position: relative;
+	left: 10%;
+}
+
+.active {
+	text-decoration: underline;
+	font-weight: 450;
+}
