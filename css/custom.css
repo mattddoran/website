@@ -41,15 +41,17 @@
 .gh-button {
 	position: absolute;
 	left: 10%;
-	bottom: 10%;
+	bottom: 25%;
 	width: 80%;
+	font-variant: small-caps;
 }
 
 .hr-button {
 	position: absolute;
 	left: 10%;
-	bottom: 25%;
+	bottom: 10%;
 	width: 80%;
+	font-variant: small-caps;
 }
 
 .curtain-text {
