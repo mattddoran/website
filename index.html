@@ -28,8 +28,16 @@
           <li class="nav-item">
             <a class="nav-link" href="resumePage.html">Resume</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Projects
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="index.html#p1">Rally (AR app)</a>
+            <a class="dropdown-item" href="index.html#p2">Trump Drumpf Jump (game)</a>
+            <a class="dropdown-item" href="index.html#p3">3D Maze Explorer (graphics)</a>
+            <a class="dropdown-item" href="index.html#p4">Resource app</a>
+          </div>
           </li>
         </ul>
       </div>
@@ -48,12 +56,50 @@
         <a role="button" class="btn btn-light hr-button" href="https://www.hackerrank.com/mattddoran" target="_blank">HackerRank</a>
       </div>
     </div>
+    <!-- PROJECTS inside of glacier parallax -->
     <div class="parallax-bg-glacier">
-      <div class="parallax-curtain-transparent-top block-text" style="margin-bottom: 10vh">
+      <div class="parallax-curtain-transparent-top block-text" style="margin-bottom: 15vh">
         Projects
       </div>
-      <div class="parallax-curtain-project projectRed">
-        Hello, World
+      <!-- PROJECT 1 -->
+      <div class="parallax-curtain-project projectBlack" id="p1">
+        <div class="project-text-box">
+          <span class="block-text">Rally</span>
+          <div class="project-text">
+          IOS application visualizing GPS coordinates in Augmented Reality. Built on top of ARKit and MapboxKit on Swift with Xcode. Renders GPS Positions in AR as annotated nodes, syncing groups and GPS points to a Firebase DB. Decorates nodes with distance indicators and group avatars, and the nodes transform in 3D space and scale via distance.
+          </div>
+        </div>
+        <span><img src="p1.png" class="project-image"></span>
+      </div>
+      <!-- PROJECT 2 -->
+      <div class="parallax-curtain-project projectBlack" id="p2">
+        <div class="project-text-box">
+          <span class="block-text">Trump Drumpf Jump</span>
+          <div class="project-text">
+          A political satire game I made on iOS built on top of SpriteKit using Swift with Xcode. Within SpriteKit, used SKPhysics to move/manage sprite notes, as well as SKParticleEmitter to create particle effects. Stored player data locally using NSPlayerStats. Drew all sprites in Adobe Photoshop. Integrated leaderboards via GameCenter, and ads with Google Adwords.
+          </div>
+        </div>
+        <span><img src="p2.png" class="project-image"></span>
+      </div>
+      <!-- PROJECT 3 -->
+      <div class="parallax-curtain-project projectBlack" id="p3">
+        <div class="project-text-box">
+          <span class="block-text">3D Maze Explorer</span>
+          <div class="project-text">
+          Large computer graphics project made with OpenGL and C++. OpenGL was used for the graphics pipelines, allowing 3D transformations for models, camera, and scene. User interaction for movement and view switching between 3rd person and birds-eye view. Phong shader, with specular and ambient light support. Reads in .obj files to render scene objects.
+          </div>
+        </div>
+        <span><img src="p3.png" class="project-image"></span>
+      </div>
+      <!-- PROJECT 4 -->
+      <div class="parallax-curtain-project projectBlack" id="p4">
+        <div class="project-text-box">
+          <span class="block-text">High School Resource App</span>
+          <div class="project-text">
+          A template resource application for high schools. Purpose derived from a concept where students could view grades, faculty, agendas, announcements, etc. inside a hub. Designed to give smartphones a more practical purpose in high school settings. Scalable solution by creating a template application that could be contracted out to high schools. Designed using EachScape, a drag and drop app builder. Extensive interview process, developing a user persona on who would use this type of app.
+          </div>
+        </div>
+        <span><img src="p4.png" class="project-image"></span>
       </div>
     </div>
 
